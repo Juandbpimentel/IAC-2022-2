@@ -106,28 +106,27 @@
 
     # transferência de dados:
     #		_____________________________________	
-    #		| func	   |	Bin		|    Hex    |
+    #		|   func   |     Bin    |    Hex    |
     #		|Load mq   |  00001010	|     0A    |
     #		|Load mq,x |  00001001	|     09    |
     #		|load m    |  00000001	|     01    |
     #		|stor      |  00100001	|     21    |
-    #		|	   	   |			|	 	    |
+    #		|          |            |           |
     # jump incondicional: 
-    #		
-    #		|jump M esq|  00001101	|     0D    |
-    #		|jump M dir|  00001110	|     0E    |
-    #		|	  	   |			|		    |
+    #		|jump M esq|  00001101  |     0D    |
+    #		|jump M dir|  00001110  |     0E    |
+    #		|          |            |           |
     # jump condicional: 
-    #		
-    #		|jump M esq|  00001101	|     0F    |
-    #		|jump M dir|  00001110	|     10    |
-    #		|	  	   |			|		    |
+    #
+    #		|jump M esq|  00001101  |     0F    |
+    #		|jump M dir|  00001110  |     10    |
+    #		|          |            |           |
     # Aritimética:
-    #		|add  M    |  00000101	|     05    |
-    #		|sub  M    |  00000110	|     06    |
-    #		|mul  M    |  00001011	|     0B    |
-    #		|div  M    |  00001100	|     0C    |
-    #		|RSH       |  00010101	|     15    |
+    #		|add  M    |  00000101  |     05    |
+    #		|sub  M    |  00000110  |     06    |
+    #		|mul  M    |  00001011  |     0B    |
+    #		|div  M    |  00001100  |     0C    |
+    #		|RSH       |  00010101  |     15    |
     #		-------------------------------------
 
 #   Codigo Completo
